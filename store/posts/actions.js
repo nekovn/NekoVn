@@ -4,7 +4,7 @@ export default {
       const response = await this.$api.get('/posts', {
         params: {
           page: 1,//trang hiện tại
-          per_page: 4,//số bài viết trên 1 trang
+          per_page: 60,//số bài viết trên 1 trang
         }
       });
 
@@ -42,7 +42,7 @@ export default {
       const response = await this.$api.get('/categories', {
         params: {
           page: 1,//trang hiện tại
-          per_page: 10,//số bài viết trên 1 trang
+          per_page: 60,//số bài viết trên 1 trang
         }
       });
       if (response.status === 200) {
@@ -209,7 +209,7 @@ export default {
       const response = await this.$api.get('/posts', {
         params: {
           page: 1,
-          per_page: 10,
+          per_page: 60,
           author: [authorId]
         }
       });
