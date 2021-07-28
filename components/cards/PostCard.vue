@@ -47,7 +47,11 @@ export default {
   },
   computed: {
     datePretty() {
+     if(this.date){
       return getFormattedDate(this.date)
+     }else{
+      return '7/7/2021'
+     }
     },
     getImage(){
       if(this.image){
