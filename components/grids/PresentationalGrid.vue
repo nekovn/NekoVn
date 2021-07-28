@@ -46,7 +46,6 @@ export default {
   },
   computed: {
     itemsComputed() {
-      console.log(this.items);
       return this.items.length ? this.items : this.placeholders
     }
   }
