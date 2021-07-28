@@ -33,7 +33,7 @@ export default {
   name: 'HomePage',
   head() {
     return {
-      title: `Trang chủ | ${this.$siteConfig.siteName}`
+      title: `Giới thiệu về du lịch,văn hóa,ngôn ngữ | ${this.$siteConfig.siteName}`
     }
   },
   fetchOnServer: false,
