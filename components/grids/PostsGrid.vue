@@ -47,6 +47,7 @@ export default {
 
     }),
     CheckTypeName(){
+      console.log("this.params",this.params);
       if(this.params && this.params ==='contact'){
         return this.postLatest;
       }
