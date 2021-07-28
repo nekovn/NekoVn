@@ -44,10 +44,12 @@ export default {
       postView:state => state.posts.popularList,
       postLatest:state => state.posts.latestList,
       relatedPostByCategory:state => state.posts.latestListByCategory,
-
+      otherPosts:state => state.posts.otherPosts,
     }),
     CheckTypeName(){
-      console.log("this.params",this.params);
+      if(this.params && this.params ==='user-single'){
+        return this.otherPosts;
+      }
       if(this.params && this.params ==='contact'){
         return this.postLatest;
       }
