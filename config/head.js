@@ -9,14 +9,14 @@ export default {
       content: process.env.npm_package_description || ''
     }
   ],
-//   script: [
-//     {
-//       'data-ad-client': 'pub-1530282318991102',
-//       async: true,
-//       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+  script: [
+    {
+      async: true,
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091331459268947',
+      crossorigin: 'anonymous',
 
-//     }
-//   ],
+    }
+  ],
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo-vn.png' }],
   
 
