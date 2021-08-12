@@ -79,7 +79,7 @@ export default {
     siteName : 'Khách hàng',
     successEmail :'Tin nhắn đã được gửi.Chúng tôi sẽ gửi cho bạn bài viết mới nhất',
     title    : 'Nội dung được gửi từ NekoVn để nhận bài viết mới nhất',
-    heading  : 'Nhận các bài viết mới nhất',
+    heading  : 'Nhận các bài viết mới nhất.',
     btnText  : 'Gửi',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
