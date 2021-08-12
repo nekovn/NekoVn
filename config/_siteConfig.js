@@ -37,7 +37,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Về NekoVn',
+      name: 'Về NekoVn1',
       link: '/about'
     },
     {
